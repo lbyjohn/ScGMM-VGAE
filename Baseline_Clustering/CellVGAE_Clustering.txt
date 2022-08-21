@@ -1,0 +1,6 @@
+python -m cellvgae --hvg_file_path "DSim_10.csv" --khvg_file_path "DSim_10.csv" --graph_file_path "DSim_graph_10.txt" --graph_convolution "GAT" --num_hidden_layers 2 --hidden_dims 128 128 --num_heads 3 3 3 3 --dropout 0.4 0.4 0.4 0.4 --latent_dim 50 --epochs 200 --transpose_input --model_save_path "DSim_10" --umap --hdbscan
+
+
+
+
+
